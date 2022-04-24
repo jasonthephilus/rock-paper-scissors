@@ -88,7 +88,7 @@ for (; keepgoing == true; ) {
     }
     else {
         keepgoing = true;
-        let playerSelection = prompt("rock/paper/scissors";);
+        let playerSelection = window.prompt("rock/paper/scissors");
         let computerSelection = computerPlay();
         let result = round(playerSelection, computerSelection);
         if (result == "win") {
